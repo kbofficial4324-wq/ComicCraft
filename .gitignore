@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Environment variables / secrets
+.env
+.env.*
+
+# Generated files
+generated/*
+!generated/.gitkeep
+
+# Hugging Face cache
+.cache/
+huggingface/
+*.safetensors
+
+# Model/cache directories
+models/
+diffusers/
+transformers/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
